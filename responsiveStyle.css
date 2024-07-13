@@ -1,0 +1,33 @@
+/* FOR SMALLER SCREEN LAPTOPS */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    #headline {
+        padding-top: 4rem;
+    }
+    
+    .intro {
+        margin-top: 1rem;
+        padding: 0;
+    }
+
+    #photo {
+        width: 32rem;
+        margin: 10px 0px 10px 20px;
+    }
+
+    .name {
+        margin-left: 5rem;
+        margin-top: 7rem;
+    }
+
+    .boxx {
+        height: 35rem;
+    }
+
+    #box1-heading {
+        font-size: large;
+    }
+
+    .box1 {
+        height: 35rem;
+    }
+}

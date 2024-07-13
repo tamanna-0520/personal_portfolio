@@ -1,0 +1,207 @@
+html {
+    scroll-behavior: smooth;
+}
+  
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #d4d9d4;
+    font-family: 'ubuntu';
+    background-color: #2e3944;
+}
+
+
+/* TOP-BAR */
+.top-bar {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 50px;
+    top: 0; 
+    padding: 3px;
+    position: fixed;
+    background-color: #212a31;
+}
+
+.box {
+    color: #d3d9d4;
+    text-decoration: none;
+    width: 110px;
+    display: flex;
+    justify-content: center;
+    font-size: large;
+    font-weight: bolder;
+}
+
+.box:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+/* HOME PAGE */
+/* HEADLINE */
+#home-page {
+    height: 100vh;
+}
+
+#headline {
+    padding-top: 5rem;
+    text-align: center;
+    font-size: 40px;
+    font-style: oblique;
+    text-shadow: -2px -2px #6c6870;
+}
+
+/* PORTFOLIO CONTENT OF HOME-PAGE */
+.intro {
+    display: flex;
+}
+
+#photo {
+    background-image: url(image_3.jpg);
+    border-radius: 50px;
+    border: 5px solid #4c495d;
+    margin: 40px 0px 10px 40px;
+    height: 480px;
+    width: 22.5rem;
+}
+
+.name {
+    margin-top: 9.375rem;
+    margin-left: 12.5rem;
+    text-align: center;
+    width: 800px;
+}
+
+#line-1 {
+    font-size: 50px;
+}
+
+#line-2 {
+    font-size: 80px;
+    color: #748d92;
+    font-weight: bold;
+}
+
+#line-3 {
+    font-size: 20px;
+    text-align: justify;
+}
+
+
+/* ABOUT PAGE */
+/* FEATURED PORTFOLIO */
+#about-page-heading {
+    padding-top: 60px;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.about-box {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.boxx {
+    color: #d4d9d4;
+    height: 30rem;
+    width: 100%;
+    background-color: #124e66;
+    margin: 30px;
+    padding: 10px;
+    border-radius: 40px;
+    box-shadow: 10px 10px 5px #1f1824;
+    text-align: justify;
+}
+
+.boxx-heading {
+    font-weight: bold;
+    font-size: x-large;
+    text-decoration: underline;
+    margin: 5px;
+    justify-content: center;
+    display: flex;
+}
+
+
+/* PROJECTS PAGE */
+#projects-page-heading {
+    padding-top: 60px;
+    padding-bottom: 10px;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+
+#row-1 {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+#row-2 {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.box1 {
+    height: 30rem;
+    width: 90rem;
+    color: #d4d9d4;
+    background-color: #124e66;
+    margin: 30px;
+    padding: 10px;
+    border-radius: 40px;
+    box-shadow: 10px 10px 5px #1f1824;
+    text-align: justify;
+}
+
+#box1-heading {
+    font-weight: bold;
+    font-size: x-large;
+    margin: 5px 0px 10px 0px;
+    justify-content: center;
+    text-align: center;
+}
+
+li {
+    padding: 3px;
+}
+
+/* CONTACT PAGE */
+#contact-page-heading {
+    padding-top: 60px;
+    padding-bottom: 10px;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+
+#linkedin {
+    display: inline-flex;
+}
+
+#mail {
+    display: flex;
+}
+
+#location {
+    display: flex;
+}
+
+img {
+    height: 20px;
+    width: 20px;
+}
+
+/* FOOTER */
+#footer {
+    text-align: center;
+}
